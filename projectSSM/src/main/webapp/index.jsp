@@ -25,10 +25,10 @@
                 <td><input name="userId" value="${user.userId}" style="width:0; height:0;">${user.userId}</td>
                 <td>${user.userName}</td>
                 <td>${user.password}</td>
-                <td><a href="../update.jsp">更新用户</a></td>
-                <td><a href="../insert.jsp">插入新用户</a></td>
+                <td><a href="/update.jsp">更新用户</a></td>
+                <td><a href="/insert.jsp">插入新用户</a></td>
                 <td><input type="submit" value="删除用户"><td>
-            <a href="update.jsp">你好啊</a>
+                <a href="update.jsp">你好啊</a>
         </tr>
         </c:forEach>
     </table>
