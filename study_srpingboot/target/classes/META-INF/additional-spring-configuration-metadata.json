@@ -1,8 +1,0 @@
-{
-  "properties": [
-    {
-      "name": "server.servlet.active",
-      "type": "java.lang.String",
-      "description": "Description for server.servlet.active."
-  }
-] }
