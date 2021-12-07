@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="65d6855a-7e72-4397-b87f-84d5f930a299" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JavaQuick/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaQuick/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaQuick/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaQuick/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaQuick/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaQuick/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaQuick/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaQuick/JavaQuick.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaQuick/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaQuick/src/test/java/org/example/CallableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaQuick/src/test/java/org/example/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaQuick/src/test/java/org/example/EqualsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaQuick/src/test/java/org/example/MergeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaQuick/src/test/java/org/example/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaQuick/src/test/java/org/example/SynchronizedDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaQuick/src/test/java/org/example/WaitNotifyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/dictionaries/71075.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_discovery_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__com_google_guava_guava_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__com_netflix_servo_servo_internal_0_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__io_lettuce_lettuce_core_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__io_prometheus_simpleclient_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_38.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_20_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_mybatis_mybatis_3_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/gupaoedu-vip-mall/mall-api/mall-goods-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/gupaoedu-vip-mall/mall-api/mall-goods-api/src/main/java/com/gupaoedu/vip/mall/goods/model/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/gupaoedu-vip-mall/mall-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/gupaoedu-vip-mall/mall-service/mall-goods-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/gupaoedu-vip-mall/mall-util/mall-common/src/main/java/com/gupaoedu/mall/util/RespResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/gupaoedu-vip-mall/mall-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/gupaoedu-vip-mall/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/swagger-json/src/main/java/com/gupaoedu/code/swagger/SwaggerMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/swagger-json/src/main/java/com/gupaoedu/code/swagger/SwaggerModelProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/swagger-json/src/main/java/com/gupaoedu/code/swagger/SwaggerParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/swagger-json/src/main/java/com/gupaoedu/code/util/JavaTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/swagger-json/src/main/java/com/gupaoedu/code/util/ModelInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/swagger-json/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/swagger-json/target/classes/com/gupaoedu/code/build/SwaggerBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/swagger-json/target/classes/com/gupaoedu/code/build/TemplateBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/swagger-json/target/classes/com/gupaoedu/code/build/TemplateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/swagger-json/target/classes/com/gupaoedu/code/swagger/SwaggerMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/swagger-json/target/classes/com/gupaoedu/code/swagger/SwaggerModelProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/swagger-json/target/classes/com/gupaoedu/code/swagger/SwaggerPath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/shop/swagger-json/target/classes/com/gupaoedu/code/util/StringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/sql/shop_goods.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020 SpringCloud Alibaba云商城（资料）/01-SpringCloud Alibaba 云商城 业务架构知识学习/【课堂源码】SpringCloud Alibaba 云商城  业务架构知识学习/sql/shop_user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/log/springboot20220614.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/log/springboot20211208.log" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/log/springboot20211208.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/src/main/java/com/SpringbootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/SpringbootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/src/main/java/com/mapper/userMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/mapper/userMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2AbkSCkU9yNM9jUEBDhtIQGQge0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65d6855a-7e72-4397-b87f-84d5f930a299" name="Default Changelist" comment="" />
+      <created>1655285669075</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655285669075</updated>
+      <workItem from="1655285674127" duration="800000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>

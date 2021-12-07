@@ -1,0 +1,71 @@
+
+server:
+  tomcat:
+    # 字符编码配置
+    uri-encoding: utf-8
+  servlet:
+    # 字符编码配置
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+    # 访问地址设置
+    context-path: /springboot
+  # 访问端口配置
+  port: 8080
+
+# logback日志设置
+#logging:
+#  file:
+#    name: d:/log.log
+#  level:
+#    org:
+#      springframework:
+#        web: DEBUG
+
+spring:
+  # 表示所有的访问都经过静态资源路径
+  webflux:
+    static-path-pattern: /**
+
+  # 设置 freemarker
+#  freemarker:
+#    suffix: .ftl
+
+  # 覆盖默认的配置，所有需要将默认的static public等这些路径将不能作为静态资源的访问
+  web:
+    resources:
+      static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/templates/
+
+  messages:
+    # 字符编码配置
+    encoding: UTF-8
+
+  # 设置文件上传配置
+  servlet:
+    multipart:
+      enabled: true
+      # 设置单个文件上传的大小
+      max-file-size: 200MB
+      # 设置一次上传文件总的大小
+      max-request-size: 200MB
+
+  # profile 环境切换配置
+#  profiles:
+#    active: dev
+
+  # 数据库相关
+  datasource:
+    #连接池
+    type: com.alibaba.druid.pool.DruidDataSource
+    #数据库连接
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/hibernate?serverTimezone=UTC
+    username: root
+    password: 123456
+
+# mybatis的package别名
+mybatis:
+  type-aliases-package: com.jopo
+  # 指定MyBatis的映射文件的路径
+#  mapper-locations: classpath:mapper/*.xml

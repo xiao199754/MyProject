@@ -25,15 +25,15 @@
     </appender>
 
 
-    <logger name="org.apache" level="ERROR" />
+    <logger name="org.apache" level="INFO" />
     <logger name="org.apache.kafka" level="INFO" />
-    <logger name="org.springframework" level="ERROR" />
+    <logger name="org.springframework" level="INFO" />
     <logger name="org.springframework.data.elasticsearch.client.WIRE" level="trace"/>
     <logger name="org.elasticsearch.client" level="ERROR"/>
 
 
     <root>
-        <level value="debug"/>
+        <level value="INFO"/>
         <appender-ref ref="STDOUT"/>
         <appender-ref ref="FILE"/>
     </root>

@@ -13,6 +13,15 @@ public class User {
     private String age;
     private String address;
 
+    public User() {
+    }
+
+    public User(String username, String age, String address) {
+        this.username = username;
+        this.age = age;
+        this.address = address;
+    }
+
     @Override
     public String toString() {
         return "User{" +
