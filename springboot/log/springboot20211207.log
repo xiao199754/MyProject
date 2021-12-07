@@ -1,0 +1,154 @@
+2021-12-07 10:56:31.949[INFO][com.SpringbootApplication][logStarting][55] Starting SpringbootApplication using Java 10.0.2 on DESKTOP-A2HVF7G with PID 20876 (D:\javaProject\springboot\target\classes started by Administrator in D:\javaProject\springboot)
+2021-12-07 10:56:31.951[DEBUG][com.SpringbootApplication][logStarting][56] Running with Spring Boot v2.6.1, Spring v5.3.13
+2021-12-07 10:56:31.951[INFO][com.SpringbootApplication][logStartupProfileInfo][639] The following profiles are active: dev
+2021-12-07 10:56:32.937[ERROR][org.springframework.boot.SpringApplication][reportFailure][819] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hello': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'user.id' in value "${user.id}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.SpringbootApplication.main(SpringbootApplication.java:10)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'user.id' in value "${user.id}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 17 common frames omitted
+2021-12-07 10:57:28.572[INFO][com.SpringbootApplication][logStarting][55] Starting SpringbootApplication using Java 10.0.2 on DESKTOP-A2HVF7G with PID 23000 (D:\javaProject\springboot\target\classes started by Administrator in D:\javaProject\springboot)
+2021-12-07 10:57:28.575[DEBUG][com.SpringbootApplication][logStarting][56] Running with Spring Boot v2.6.1, Spring v5.3.13
+2021-12-07 10:57:28.575[INFO][com.SpringbootApplication][logStartupProfileInfo][639] The following profiles are active: dev
+2021-12-07 10:57:29.649[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlerMethods][295] 
+	c.c.Hello:
+	{ [/hello]}: hello()
+2021-12-07 10:57:29.652[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlerMethods][295] 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+	{ [/error]}: error(HttpServletRequest)
+2021-12-07 10:57:29.664[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlers][86] 'beanNameHandlerMapping' {}
+2021-12-07 10:57:29.684[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][logMappings][177] 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], ServletContext [/]]}
+2021-12-07 10:57:29.778[INFO][com.SpringbootApplication][logStarted][61] Started SpringbootApplication in 1.478 seconds (JVM running for 2.207)
+2021-12-07 10:58:17.127[INFO][com.SpringbootApplication][logStarting][55] Starting SpringbootApplication using Java 10.0.2 on DESKTOP-A2HVF7G with PID 24048 (D:\javaProject\springboot\target\classes started by Administrator in D:\javaProject\springboot)
+2021-12-07 10:58:17.129[DEBUG][com.SpringbootApplication][logStarting][56] Running with Spring Boot v2.6.1, Spring v5.3.13
+2021-12-07 10:58:17.129[INFO][com.SpringbootApplication][logStartupProfileInfo][639] The following profiles are active: dev
+2021-12-07 10:58:18.170[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlerMethods][295] 
+	c.c.Hello:
+	{GET [/hello]}: hello()
+2021-12-07 10:58:18.173[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlerMethods][295] 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2021-12-07 10:58:18.183[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlers][86] 'beanNameHandlerMapping' {}
+2021-12-07 10:58:18.199[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][logMappings][177] 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], ServletContext [/]]}
+2021-12-07 10:58:18.266[INFO][com.SpringbootApplication][logStarted][61] Started SpringbootApplication in 1.426 seconds (JVM running for 2.243)
+2021-12-07 11:01:46.371[INFO][com.SpringbootApplication][logStarting][55] Starting SpringbootApplication using Java 10.0.2 on DESKTOP-A2HVF7G with PID 23132 (D:\javaProject\springboot\target\classes started by Administrator in D:\javaProject\springboot)
+2021-12-07 11:01:46.375[DEBUG][com.SpringbootApplication][logStarting][56] Running with Spring Boot v2.6.1, Spring v5.3.13
+2021-12-07 11:01:46.376[INFO][com.SpringbootApplication][logStartupProfileInfo][639] The following profiles are active: dev
+2021-12-07 11:01:47.416[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlerMethods][295] 
+	c.c.Hello:
+	{ [/hello]}: hello()
+2021-12-07 11:01:47.418[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlerMethods][295] 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2021-12-07 11:01:47.428[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlers][86] 'beanNameHandlerMapping' {}
+2021-12-07 11:01:47.444[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][logMappings][177] 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], ServletContext [/]]}
+2021-12-07 11:01:47.508[INFO][com.SpringbootApplication][logStarted][61] Started SpringbootApplication in 1.452 seconds (JVM running for 2.266)
+2021-12-07 11:02:30.353[INFO][com.SpringbootApplication][logStarting][55] Starting SpringbootApplication using Java 10.0.2 on DESKTOP-A2HVF7G with PID 20344 (D:\javaProject\springboot\target\classes started by Administrator in D:\javaProject\springboot)
+2021-12-07 11:02:30.356[DEBUG][com.SpringbootApplication][logStarting][56] Running with Spring Boot v2.6.1, Spring v5.3.13
+2021-12-07 11:02:30.356[INFO][com.SpringbootApplication][logStartupProfileInfo][639] The following profiles are active: dev
+2021-12-07 11:02:31.412[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlerMethods][295] 
+	c.c.Hello:
+	{ [/hello]}: hello()
+2021-12-07 11:02:31.415[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlerMethods][295] 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2021-12-07 11:02:31.425[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlers][86] 'beanNameHandlerMapping' {}
+2021-12-07 11:02:31.441[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][logMappings][177] 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], ServletContext [/]]}
+2021-12-07 11:02:31.508[INFO][com.SpringbootApplication][logStarted][61] Started SpringbootApplication in 1.438 seconds (JVM running for 2.156)
+2021-12-07 11:06:37.092[INFO][com.SpringbootApplication][logStarting][55] Starting SpringbootApplication using Java 10.0.2 on DESKTOP-A2HVF7G with PID 22988 (D:\javaProject\springboot\target\classes started by Administrator in D:\javaProject\springboot)
+2021-12-07 11:06:37.096[DEBUG][com.SpringbootApplication][logStarting][56] Running with Spring Boot v2.6.1, Spring v5.3.13
+2021-12-07 11:06:37.097[INFO][com.SpringbootApplication][logStartupProfileInfo][639] The following profiles are active: dev
+2021-12-07 11:06:38.282[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlerMethods][295] 
+	c.c.Hello:
+	{ [/hello]}: hello()
+2021-12-07 11:06:38.285[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlerMethods][295] 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+	{ [/error]}: error(HttpServletRequest)
+2021-12-07 11:06:38.296[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlers][86] 'beanNameHandlerMapping' {}
+2021-12-07 11:06:38.306[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][logMappings][177] 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], ServletContext [/]]}
+2021-12-07 11:06:38.391[INFO][com.SpringbootApplication][logStarted][61] Started SpringbootApplication in 1.626 seconds (JVM running for 2.48)
+2021-12-07 11:10:25.049[INFO][com.SpringbootApplication][logStarting][55] Starting SpringbootApplication using Java 10.0.2 on DESKTOP-A2HVF7G with PID 25700 (D:\javaProject\springboot\target\classes started by Administrator in D:\javaProject\springboot)
+2021-12-07 11:10:25.052[DEBUG][com.SpringbootApplication][logStarting][56] Running with Spring Boot v2.6.1, Spring v5.3.13
+2021-12-07 11:10:25.052[INFO][com.SpringbootApplication][logStartupProfileInfo][639] The following profiles are active: dev
+2021-12-07 11:10:26.134[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlerMethods][295] 
+	c.c.Hello:
+	{ [/hello]}: hello()
+2021-12-07 11:10:26.137[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlerMethods][295] 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+	{ [/error]}: error(HttpServletRequest)
+2021-12-07 11:10:26.147[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlers][86] 'beanNameHandlerMapping' {}
+2021-12-07 11:10:26.155[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][logMappings][177] 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], ServletContext [/]]}
+2021-12-07 11:10:26.237[ERROR][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter][report][40] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+2021-12-07 11:11:29.090[INFO][com.SpringbootApplication][logStarting][55] Starting SpringbootApplication using Java 10.0.2 on DESKTOP-A2HVF7G with PID 22532 (D:\javaProject\springboot\target\classes started by Administrator in D:\javaProject\springboot)
+2021-12-07 11:11:29.094[DEBUG][com.SpringbootApplication][logStarting][56] Running with Spring Boot v2.6.1, Spring v5.3.13
+2021-12-07 11:11:29.095[INFO][com.SpringbootApplication][logStartupProfileInfo][635] No active profile set, falling back to default profiles: default
+2021-12-07 11:11:30.335[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlerMethods][295] 
+	c.c.Hello:
+	{ [/hello]}: hello()
+2021-12-07 11:11:30.339[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlerMethods][295] 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2021-12-07 11:11:30.350[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlers][86] 'beanNameHandlerMapping' {}
+2021-12-07 11:11:30.370[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][logMappings][177] 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], ServletContext [/]]}
+2021-12-07 11:11:30.437[INFO][com.SpringbootApplication][logStarted][61] Started SpringbootApplication in 1.725 seconds (JVM running for 2.552)
+2021-12-07 11:12:53.276[INFO][com.SpringbootApplication][logStarting][55] Starting SpringbootApplication using Java 10.0.2 on DESKTOP-A2HVF7G with PID 25652 (D:\javaProject\springboot\target\classes started by Administrator in D:\javaProject\springboot)
+2021-12-07 11:12:53.278[DEBUG][com.SpringbootApplication][logStarting][56] Running with Spring Boot v2.6.1, Spring v5.3.13
+2021-12-07 11:12:53.279[INFO][com.SpringbootApplication][logStartupProfileInfo][635] No active profile set, falling back to default profiles: default
+2021-12-07 11:12:54.352[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlerMethods][295] 
+	c.c.Hello:
+	{ [/hello]}: hello()
+2021-12-07 11:12:54.354[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlerMethods][295] 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2021-12-07 11:12:54.365[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][detectHandlers][86] 'beanNameHandlerMapping' {}
+2021-12-07 11:12:54.380[DEBUG][_org.springframework.web.servlet.HandlerMapping.Mappings][logMappings][177] 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], ServletContext [/]]}
+2021-12-07 11:12:54.447[INFO][com.SpringbootApplication][logStarted][61] Started SpringbootApplication in 1.46 seconds (JVM running for 2.211)
