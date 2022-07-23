@@ -1,0 +1,20 @@
+2022-07-22 10:50:41.201[INFO][com.SpringbootApplication][logStarting][55] Starting SpringbootApplication using Java 10.0.2 on DESKTOP-A2HVF7G with PID 14640 (D:\javaProject\springboot\target\classes started by Administrator in D:\javaProject\springboot)
+2022-07-22 10:50:41.204[INFO][com.SpringbootApplication][logStartupProfileInfo][635] No active profile set, falling back to default profiles: default
+2022-07-22 10:50:41.250[INFO][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][logTo][255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-22 10:50:41.250[INFO][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][logTo][255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-22 10:50:42.826[INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108] Tomcat initialized with port(s): 8080 (http)
+2022-07-22 10:50:42.832[INFO][org.apache.coyote.http11.Http11NioProtocol][log][173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-22 10:50:42.832[INFO][org.apache.catalina.core.StandardService][log][173] Starting service [Tomcat]
+2022-07-22 10:50:42.835[INFO][org.apache.catalina.core.StandardEngine][log][173] Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-07-22 10:50:42.910[INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot]][log][173] Initializing Spring embedded WebApplicationContext
+2022-07-22 10:50:42.910[INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290] Root WebApplicationContext: initialization completed in 1660 ms
+2022-07-22 10:50:43.213[INFO][org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping][<init>][53] Adding welcome page: class path resource [static/index.html]
+2022-07-22 10:50:43.401[INFO][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer][startServer][58] LiveReload server is running on port 35729
+2022-07-22 10:50:43.422[INFO][org.apache.coyote.http11.Http11NioProtocol][log][173] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-22 10:50:43.438[INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220] Tomcat started on port(s): 8080 (http) with context path '/springboot'
+2022-07-22 10:50:43.447[INFO][com.SpringbootApplication][logStarted][61] Started SpringbootApplication in 2.649 seconds (JVM running for 4.561)
+2022-07-22 10:52:10.099[INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot]][log][173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-22 10:52:10.101[INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][525] Initializing Servlet 'dispatcherServlet'
+2022-07-22 10:52:10.101[INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547] Completed initialization in 0 ms
+2022-07-22 10:52:10.160[INFO][com.alibaba.druid.pool.DruidDataSource][init][998] {dataSource-1} inited
+2022-07-22 10:58:54.618[WARN][com.alibaba.druid.pool.DruidAbstractDataSource][testConnectionInternal][1494] discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/hibernate?serverTimezone=UTC, version : 1.2.8, lastPacketReceivedIdleMillis : 404350
