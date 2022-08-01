@@ -1,0 +1,32 @@
+package com.gupaoedu.controller;
+
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.web.filter.authc.FormAuthenticationFilter;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import javax.servlet.http.HttpServletRequest;
+
+/**
+ * 让每一个人的职业生涯不留遗憾
+ *
+ * @author 波波老师【咕泡学院】
+ * @Description: ${todo}
+ * @date 2020/7/27 21:15
+ */
+@Controller
+public class AuthcController {
+
+    @RequestMapping("/login.do")
+    public String login(HttpServletRequest request){
+        // 认证失败的异常信息
+        Object obj = request.getAttribute(FormAuthenticationFilter.DEFAULT_ERROR_KEY_ATTRIBUTE_NAME);
+        System.out.println("认证失败的信息：" + obj);
+        return "login";
+    }
+    @RequestMapping("/logout.do")
+    public String logout(){
+        SecurityUtils.getSubject().logout();
+        return "redirect:/login";
+    }
+}

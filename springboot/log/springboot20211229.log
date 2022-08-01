@@ -1,0 +1,292 @@
+2021-12-29 11:49:54.676[INFO][com.SpringbootApplication][logStarting][55] Starting SpringbootApplication using Java 10.0.2 on DESKTOP-A2HVF7G with PID 24364 (D:\javaProject\springboot\target\classes started by Administrator in D:\javaProject\springboot)
+2021-12-29 11:49:54.685[INFO][com.SpringbootApplication][logStartupProfileInfo][635] No active profile set, falling back to default profiles: default
+2021-12-29 11:49:54.771[INFO][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][logTo][255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-29 11:49:54.772[INFO][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][logTo][255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-29 11:49:56.724[INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108] Tomcat initialized with port(s): 8081 (http)
+2021-12-29 11:49:56.734[INFO][org.apache.coyote.http11.Http11NioProtocol][log][173] Initializing ProtocolHandler ["http-nio-8081"]
+2021-12-29 11:49:56.735[INFO][org.apache.catalina.core.StandardService][log][173] Starting service [Tomcat]
+2021-12-29 11:49:56.735[INFO][org.apache.catalina.core.StandardEngine][log][173] Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-29 11:49:56.811[INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot]][log][173] Initializing Spring embedded WebApplicationContext
+2021-12-29 11:49:56.811[INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290] Root WebApplicationContext: initialization completed in 2038 ms
+2021-12-29 11:49:57.147[INFO][org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping][<init>][53] Adding welcome page: class path resource [static/index.html]
+2021-12-29 11:49:57.367[INFO][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer][startServer][58] LiveReload server is running on port 35729
+2021-12-29 11:49:57.405[INFO][org.apache.coyote.http11.Http11NioProtocol][log][173] Starting ProtocolHandler ["http-nio-8081"]
+2021-12-29 11:49:57.419[INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220] Tomcat started on port(s): 8081 (http) with context path '/springboot'
+2021-12-29 11:49:57.429[INFO][com.SpringbootApplication][logStarted][61] Started SpringbootApplication in 3.68 seconds (JVM running for 6.014)
+2021-12-29 11:52:47.614[INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot]][log][173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-29 11:52:47.614[INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][525] Initializing Servlet 'dispatcherServlet'
+2021-12-29 11:52:47.615[INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547] Completed initialization in 1 ms
+2021-12-29 11:52:47.754[ERROR][org.thymeleaf.TemplateEngine][process][1136] [THYMELEAF][http-nio-8081-exec-3] Exception processing template "index.html": Error resolving template [index.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [index.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1400)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2021-12-29 11:52:47.758[ERROR][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot].[dispatcherServlet]][log][175] Servlet.service() for servlet [dispatcherServlet] in context with path [/springboot] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [index.html], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [index.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1400)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2021-12-29 11:54:00.188[ERROR][freemarker.runtime][error][60] Error executing FreeMarker template
+freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> list  [in template "user.ftl" at line 13, column 12]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #list list as user  [in template "user.ftl" at line 13, column 5]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.Expression.assertNonNull(Expression.java:249)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:104)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:347)
+	at freemarker.core.Environment.visit(Environment.java:353)
+	at freemarker.core.Environment.process(Environment.java:326)
+	at freemarker.template.Template.process(Template.java:383)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.processTemplate(FreeMarkerView.java:391)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.doRender(FreeMarkerView.java:304)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.renderMergedTemplateModel(FreeMarkerView.java:255)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:179)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1400)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2021-12-29 11:54:00.190[ERROR][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot].[dispatcherServlet]][log][175] Servlet.service() for servlet [dispatcherServlet] in context with path [/springboot] threw exception [Request processing failed; nested exception is freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> list  [in template "user.ftl" at line 13, column 12]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #list list as user  [in template "user.ftl" at line 13, column 5]
+----] with root cause
+freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> list  [in template "user.ftl" at line 13, column 12]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #list list as user  [in template "user.ftl" at line 13, column 5]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.Expression.assertNonNull(Expression.java:249)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:104)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:347)
+	at freemarker.core.Environment.visit(Environment.java:353)
+	at freemarker.core.Environment.process(Environment.java:326)
+	at freemarker.template.Template.process(Template.java:383)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.processTemplate(FreeMarkerView.java:391)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.doRender(FreeMarkerView.java:304)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.renderMergedTemplateModel(FreeMarkerView.java:255)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:179)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1400)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2021-12-29 11:54:00.199[ERROR][org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$StaticView][render][205] Cannot render error page for request [/springboot/user] and exception [The following has evaluated to null or missing:
+==> list  [in template "user.ftl" at line 13, column 12]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #list list as user  [in template "user.ftl" at line 13, column 5]
+----] as the response has already been committed. As a result, the response may have the wrong status code.
+2021-12-29 11:55:33.986[INFO][com.alibaba.druid.pool.DruidDataSource][close][2071] {dataSource-0} closing ...
+2021-12-29 11:55:34.071[INFO][com.SpringbootApplication][logStarting][55] Starting SpringbootApplication using Java 10.0.2 on DESKTOP-A2HVF7G with PID 24364 (D:\javaProject\springboot\target\classes started by Administrator in D:\javaProject\springboot)
+2021-12-29 11:55:34.071[INFO][com.SpringbootApplication][logStartupProfileInfo][635] No active profile set, falling back to default profiles: default
+2021-12-29 11:55:34.931[INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108] Tomcat initialized with port(s): 8081 (http)
+2021-12-29 11:55:34.931[INFO][org.apache.coyote.http11.Http11NioProtocol][log][173] Initializing ProtocolHandler ["http-nio-8081"]
+2021-12-29 11:55:34.931[INFO][org.apache.catalina.core.StandardService][log][173] Starting service [Tomcat]
+2021-12-29 11:55:34.932[INFO][org.apache.catalina.core.StandardEngine][log][173] Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-29 11:55:34.944[INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot]][log][173] Initializing Spring embedded WebApplicationContext
+2021-12-29 11:55:34.945[INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290] Root WebApplicationContext: initialization completed in 872 ms
+2021-12-29 11:55:35.015[INFO][org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping][<init>][53] Adding welcome page: class path resource [static/index.html]
+2021-12-29 11:55:35.053[INFO][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer][startServer][58] LiveReload server is running on port 35729
+2021-12-29 11:55:35.065[INFO][org.apache.coyote.http11.Http11NioProtocol][log][173] Starting ProtocolHandler ["http-nio-8081"]
+2021-12-29 11:55:35.068[INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220] Tomcat started on port(s): 8081 (http) with context path '/springboot'
+2021-12-29 11:55:35.072[INFO][com.SpringbootApplication][logStarted][61] Started SpringbootApplication in 1.028 seconds (JVM running for 343.656)
+2021-12-29 11:55:35.073[INFO][org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][onApplicationEvent][63] Condition evaluation unchanged
+2021-12-29 11:55:43.405[INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot]][log][173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-29 11:55:43.406[INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][525] Initializing Servlet 'dispatcherServlet'
+2021-12-29 11:55:43.407[INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547] Completed initialization in 1 ms
+2021-12-29 11:56:18.870[INFO][com.alibaba.druid.pool.DruidDataSource][init][998] {dataSource-1} inited
