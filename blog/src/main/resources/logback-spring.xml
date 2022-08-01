@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!--包含spring boot对logback日志的默认配置-->
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+    <property name="LOG_FILE" value="${LOG_FILE:-${LOG_PATH:-${LOG_TEMP:-${java.io.tmpdir:-/tmp}}}/spring.log}"/>
+    <include resource="org/springframework/boot/logging/logback/console-appender.xml"/>
+
+    <property name="log.context.name" value="springboot"/>
+    <property name="log.charset" value="UTF-8"/>
+    <property name="log.pattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS}[%p][%c][%M][%L] %msg%n "/>
+
+    <contextName>${log.context.name}</contextName>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder charset="${log.charset}">
+            <pattern>${log.pattern}</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>./log/${log.context.name}%d{yyyyMMdd}.log</fileNamePattern>
+            <maxHistory>5</maxHistory>
+        </rollingPolicy>
+
+        <encoder charset="${log.charset}">
+            <pattern>${log.pattern}</pattern>
+        </encoder>
+    </appender>
+
+
+    <logger name="org.apache" level="INFO" />
+    <logger name="org.apache.kafka" level="INFO" />
+    <logger name="org.springframework" level="INFO" />
+    <logger name="org.springframework.data.elasticsearch.client.WIRE" level="trace"/>
+    <logger name="org.elasticsearch.client" level="ERROR"/>
+
+
+    <root>
+        <level value="INFO"/>
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="FILE"/>
+    </root>
+
+</configuration>

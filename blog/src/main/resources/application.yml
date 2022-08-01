@@ -1,0 +1,26 @@
+spring:
+  thymeleaf:
+    mode: HTML
+  profiles:
+    active: dev
+  #  web:
+#    resources:
+#      static-locations : classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/templates/
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
+logging:
+  level:
+    root: info
+    com.java.blog: debug
+  file:
+    name: log/blog.log
+server:
+  error:
+    include-exception: true
+    include-message: always
+
+comment:
+  avatar : /images/avatar.jpg
