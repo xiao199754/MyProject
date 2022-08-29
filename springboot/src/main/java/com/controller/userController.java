@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Controller
-public class userController {
+public class UserController {
 
     @RequestMapping("/hello2")
     public String hello2(Model model){

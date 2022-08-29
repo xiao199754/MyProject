@@ -6,7 +6,7 @@ import javax.servlet.annotation.WebFilter;
 import java.io.IOException;
 
 @WebFilter(urlPatterns = "/Servlet1hello")
-public class helloFilter implements Filter {
+public class HelloFilter implements Filter {
 
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {

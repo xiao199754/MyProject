@@ -1,21 +1,18 @@
 package com.controller;
 
 import com.jopo.User;
-import com.service.userService;
+import com.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-import java.util.List;
 
 @Controller
-public class userControllerMybatis {
+public class UserControllerMybatis {
 
     @Autowired
-    userService userService;
+    UserService userService;
 
     /*基础页面的请求,请求什么就返回什么页面*/
     @RequestMapping("/{page}")

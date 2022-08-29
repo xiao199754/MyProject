@@ -4,7 +4,7 @@ package com.filter;
 import javax.servlet.*;
 import java.io.IOException;
 
-public class helloFilter2 implements Filter {
+public class HelloFilter2 implements Filter {
 
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {

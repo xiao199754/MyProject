@@ -1,19 +1,13 @@
 package com;
 
-import com.filter.helloFilter2;
-import com.listener.helloListener2;
+import com.filter.HelloFilter2;
+import com.listener.HelloListener2;
 import com.servlet.helloServlet2;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.*;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 
 @SpringBootApplication
 @MapperScan("com.mapper") //用户扫描mapper接口
@@ -40,7 +34,7 @@ public class SpringbootApplication {
     @Bean
     public FilterRegistrationBean getFilterRegistrationBean(){
         // 将要添加的Servlet封装为一个 FilterRegistrationBean 对象
-        FilterRegistrationBean filterRegistrationBean = new FilterRegistrationBean(new helloFilter2());
+        FilterRegistrationBean filterRegistrationBean = new FilterRegistrationBean(new HelloFilter2());
         // 设置映射信息
         filterRegistrationBean.addUrlPatterns("/Servlet2hello");
         return filterRegistrationBean;
@@ -50,7 +44,7 @@ public class SpringbootApplication {
     @Bean
     public ServletListenerRegistrationBean getListenerRegistrationBean(){
         // 将要添加的Servlet封装为一个 ServletListenerRegistrationBean 对象
-        ServletListenerRegistrationBean servletListenerRegistrationBean = new ServletListenerRegistrationBean(new helloListener2());
+        ServletListenerRegistrationBean servletListenerRegistrationBean = new ServletListenerRegistrationBean(new HelloListener2());
         return servletListenerRegistrationBean;
     }
 

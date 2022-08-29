@@ -1068,7 +1068,7 @@ Consider defining a bean of type 'com.entity.User' in your configuration.
 2021-12-07 21:54:01.995[INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547] Completed initialization in 1 ms
 2021-12-07 21:54:06.121[ERROR][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]][log][175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 java.lang.NullPointerException: null
-	at com.controller.userControllerMybatis.query(userControllerMybatis.java:17)
+	at com.controller.UserControllerMybatis.query(userControllerMybatis.java:17)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1212,7 +1212,7 @@ Consider defining a bean of type 'com.entity.User' in your configuration.
 2021-12-07 22:15:35.348[INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547] Completed initialization in 1 ms
 2021-12-07 22:15:35.375[ERROR][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]][log][175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 java.lang.NullPointerException: null
-	at com.controller.userControllerMybatis.query(userControllerMybatis.java:17)
+	at com.controller.UserControllerMybatis.query(userControllerMybatis.java:17)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1297,7 +1297,7 @@ java.lang.NullPointerException: null
 2021-12-07 22:27:25.568[INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547] Completed initialization in 1 ms
 2021-12-07 22:27:25.596[ERROR][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]][log][175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 java.lang.NullPointerException: null
-	at com.controller.userControllerMybatis.query(userControllerMybatis.java:17)
+	at com.controller.UserControllerMybatis.query(userControllerMybatis.java:17)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1357,7 +1357,7 @@ java.lang.NullPointerException: null
 2021-12-07 22:28:29.585[INFO][org.apache.catalina.core.StandardEngine][log][173] Starting Servlet engine: [Apache Tomcat/9.0.55]
 2021-12-07 22:28:29.598[INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][log][173] Initializing Spring embedded WebApplicationContext
 2021-12-07 22:28:29.598[INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290] Root WebApplicationContext: initialization completed in 982 ms
-2021-12-07 22:28:29.617[WARN][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][refresh][591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userControllerMybatis': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.service.userService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-12-07 22:28:29.617[WARN][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][refresh][591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userControllerMybatis': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 2021-12-07 22:28:29.617[INFO][org.apache.catalina.core.StandardService][log][173] Stopping service [Tomcat]
 2021-12-07 22:28:29.624[INFO][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener][logMessage][136] 
 
@@ -1370,7 +1370,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.controller.userControllerMybatis required a bean of type 'com.service.userService' that could not be found.
+Field userService in com.controller.UserControllerMybatis required a bean of type 'com.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -1378,7 +1378,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.service.userService' in your configuration.
+Consider defining a bean of type 'com.service.UserService' in your configuration.
 
 2021-12-07 22:28:54.325[INFO][com.SpringbootApplication][logStarting][55] Starting SpringbootApplication using Java 10.0.2 on DESKTOP-A2HVF7G with PID 51964 (D:\javaProject\springboot\target\classes started by Administrator in D:\javaProject\springboot)
 2021-12-07 22:28:54.332[INFO][com.SpringbootApplication][logStartupProfileInfo][635] No active profile set, falling back to default profiles: default
@@ -1390,7 +1390,7 @@ Consider defining a bean of type 'com.service.userService' in your configuration
 2021-12-07 22:28:55.992[INFO][org.apache.catalina.core.StandardEngine][log][173] Starting Servlet engine: [Apache Tomcat/9.0.55]
 2021-12-07 22:28:56.048[INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][log][173] Initializing Spring embedded WebApplicationContext
 2021-12-07 22:28:56.048[INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290] Root WebApplicationContext: initialization completed in 1667 ms
-2021-12-07 22:28:56.137[WARN][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][refresh][591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userControllerMybatis': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.service.userService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-12-07 22:28:56.137[WARN][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][refresh][591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userControllerMybatis': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 2021-12-07 22:28:56.140[INFO][org.apache.catalina.core.StandardService][log][173] Stopping service [Tomcat]
 2021-12-07 22:28:56.178[INFO][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener][logMessage][136] 
 
@@ -1403,7 +1403,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.controller.userControllerMybatis required a bean of type 'com.service.userService' that could not be found.
+Field userService in com.controller.UserControllerMybatis required a bean of type 'com.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -1411,7 +1411,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.service.userService' in your configuration.
+Consider defining a bean of type 'com.service.UserService' in your configuration.
 
 2021-12-07 22:34:13.555[INFO][com.SpringbootApplication][logStarting][55] Starting SpringbootApplication using Java 10.0.2 on DESKTOP-A2HVF7G with PID 49772 (D:\javaProject\springboot\target\classes started by Administrator in D:\javaProject\springboot)
 2021-12-07 22:34:13.556[INFO][com.SpringbootApplication][logStartupProfileInfo][635] No active profile set, falling back to default profiles: default
@@ -4367,7 +4367,7 @@ FTL stack trace ("~" means nesting-related):
 2021-12-07 23:29:54.780[INFO][org.apache.catalina.core.StandardEngine][log][173] Starting Servlet engine: [Apache Tomcat/9.0.55]
 2021-12-07 23:29:54.797[INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][log][173] Initializing Spring embedded WebApplicationContext
 2021-12-07 23:29:54.798[INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290] Root WebApplicationContext: initialization completed in 1051 ms
-2021-12-07 23:29:54.820[WARN][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][refresh][591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userControllerMybatis': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.service.userService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-12-07 23:29:54.820[WARN][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][refresh][591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userControllerMybatis': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 2021-12-07 23:29:54.821[INFO][org.apache.catalina.core.StandardService][log][173] Stopping service [Tomcat]
 2021-12-07 23:29:54.830[INFO][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener][logMessage][136] 
 
@@ -4380,7 +4380,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.controller.userControllerMybatis required a bean of type 'com.service.userService' that could not be found.
+Field userService in com.controller.UserControllerMybatis required a bean of type 'com.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -4388,7 +4388,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.service.userService' in your configuration.
+Consider defining a bean of type 'com.service.UserService' in your configuration.
 
 2021-12-07 23:29:56.297[INFO][com.SpringbootApplication][logStarting][55] Starting SpringbootApplication using Java 10.0.2 on DESKTOP-A2HVF7G with PID 54848 (D:\javaProject\springboot\target\classes started by Administrator in D:\javaProject\springboot)
 2021-12-07 23:29:56.297[INFO][com.SpringbootApplication][logStartupProfileInfo][635] No active profile set, falling back to default profiles: default
@@ -4413,7 +4413,7 @@ Consider defining a bean of type 'com.service.userService' in your configuration
 2021-12-07 23:31:49.485[INFO][org.apache.catalina.core.StandardEngine][log][173] Starting Servlet engine: [Apache Tomcat/9.0.55]
 2021-12-07 23:31:49.498[INFO][org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/]][log][173] Initializing Spring embedded WebApplicationContext
 2021-12-07 23:31:49.499[INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290] Root WebApplicationContext: initialization completed in 1104 ms
-2021-12-07 23:31:49.518[WARN][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][refresh][591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userControllerMybatis': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.service.userService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-12-07 23:31:49.518[WARN][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][refresh][591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userControllerMybatis': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 2021-12-07 23:31:49.518[INFO][org.apache.catalina.core.StandardService][log][173] Stopping service [Tomcat]
 2021-12-07 23:31:49.522[INFO][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener][logMessage][136] 
 
@@ -4426,7 +4426,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.controller.userControllerMybatis required a bean of type 'com.service.userService' that could not be found.
+Field userService in com.controller.UserControllerMybatis required a bean of type 'com.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -4434,7 +4434,7 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.service.userService' in your configuration.
+Consider defining a bean of type 'com.service.UserService' in your configuration.
 
 2021-12-07 23:31:50.953[INFO][com.SpringbootApplication][logStarting][55] Starting SpringbootApplication using Java 10.0.2 on DESKTOP-A2HVF7G with PID 54848 (D:\javaProject\springboot\target\classes started by Administrator in D:\javaProject\springboot)
 2021-12-07 23:31:50.953[INFO][com.SpringbootApplication][logStartupProfileInfo][635] No active profile set, falling back to default profiles: default
@@ -4489,14 +4489,14 @@ Consider defining a bean of type 'com.service.userService' in your configuration
 2021-12-07 23:44:25.529[INFO][org.apache.catalina.core.StandardEngine][log][173] Starting Servlet engine: [Apache Tomcat/9.0.55]
 2021-12-07 23:44:25.544[INFO][org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/]][log][173] Initializing Spring embedded WebApplicationContext
 2021-12-07 23:44:25.545[INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290] Root WebApplicationContext: initialization completed in 1065 ms
-2021-12-07 23:44:25.592[WARN][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][refresh][591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userControllerMybatis': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [D:\javaProject\springboot\target\classes\com\mapper\userMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.mapper.userMapper.query
+2021-12-07 23:44:25.592[WARN][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][refresh][591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userControllerMybatis': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [D:\javaProject\springboot\target\classes\com\mapper\userMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.mapper.UserMapper.query
 2021-12-07 23:44:25.593[INFO][com.alibaba.druid.pool.DruidDataSource][close][2071] {dataSource-0} closing ...
 2021-12-07 23:44:25.593[INFO][org.apache.catalina.core.StandardService][log][173] Stopping service [Tomcat]
 2021-12-07 23:44:25.598[INFO][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener][logMessage][136] 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
 2021-12-07 23:44:25.603[ERROR][org.springframework.boot.SpringApplication][reportFailure][819] Application run failed
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userControllerMybatis': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [D:\javaProject\springboot\target\classes\com\mapper\userMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.mapper.userMapper.query
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userControllerMybatis': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [D:\javaProject\springboot\target\classes\com\mapper\userMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.mapper.UserMapper.query
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
@@ -4523,7 +4523,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [D:\javaProject\springboot\target\classes\com\mapper\userMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.mapper.userMapper.query
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [D:\javaProject\springboot\target\classes\com\mapper\userMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.mapper.UserMapper.query
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
@@ -4540,7 +4540,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
 	... 25 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [D:\javaProject\springboot\target\classes\com\mapper\userMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.mapper.userMapper.query
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [D:\javaProject\springboot\target\classes\com\mapper\userMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.mapper.UserMapper.query
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
@@ -4554,7 +4554,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
 	... 39 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.mapper.userMapper.query
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.mapper.UserMapper.query
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
@@ -4570,11 +4570,11 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
 	... 50 common frames omitted
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.mapper.userMapper.query
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.mapper.UserMapper.query
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
 	... 63 common frames omitted
-Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.mapper.userMapper.query
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.mapper.UserMapper.query
 	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
 	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
 	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547)
@@ -4590,12 +4590,12 @@ Caused by: org.springframework.core.NestedIOException: Failed to parse mapping r
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
 	... 64 common frames omitted
-Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.mapper.userMapper.query
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\javaProject\springboot\target\classes\mapper\userMapper.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.mapper.UserMapper.query
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
 	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:521)
 	... 77 common frames omitted
-Caused by: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.mapper.userMapper.query
+Caused by: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.mapper.UserMapper.query
 	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:872)
 	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:844)
 	at org.apache.ibatis.session.Configuration.addMappedStatement(Configuration.java:668)

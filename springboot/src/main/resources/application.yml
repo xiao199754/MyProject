@@ -63,9 +63,18 @@ spring:
     url: jdbc:mysql://localhost:3306/hibernate?serverTimezone=UTC
     username: root
     password: 123456
+  #redis配置
+  redis:
+    host: 192.168.0.128
+    port: 6379
+    pool:
+      max-idle: 10
+      min-idle: 5
+      max-total: 20
 
 # mybatis的package别名
 mybatis:
   type-aliases-package: com.jopo
   # 指定MyBatis的映射文件的路径
 #  mapper-locations: classpath:mapper/*.xml
+

@@ -9,7 +9,7 @@ import org.apache.ibatis.annotations.Update;
 
 import java.util.List;
 
-public interface userMapper {
+public interface UserMapper {
 
     @Select("select * from t_user")
     List<User> query(User user);

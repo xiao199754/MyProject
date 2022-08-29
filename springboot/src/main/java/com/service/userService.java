@@ -3,7 +3,7 @@ package com.service;
 import com.jopo.User;
 import java.util.List;
 
-public interface userService {
+public interface UserService {
 
     List<User> query(User user);
 

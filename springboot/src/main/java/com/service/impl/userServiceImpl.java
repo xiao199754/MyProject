@@ -1,18 +1,18 @@
 package com.service.impl;
 
 import com.jopo.User;
-import com.mapper.userMapper;
-import com.service.userService;
+import com.mapper.UserMapper;
+import com.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class userServiceImpl implements userService {
+public class UserServiceImpl implements UserService {
 
     @Autowired
-    userMapper userMapper;
+    UserMapper userMapper;
 
     @Override
     public List<User> query(User user) {
