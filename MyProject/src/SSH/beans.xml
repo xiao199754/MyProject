@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context" 
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context.xsd
+         http://www.springframework.org/schema/tx
+          http://www.springframework.org/schema/tx/spring-tx.xsd
+         http://www.springframework.org/schema/aop
+          http://www.springframework.org/schema/aop/spring-aop.xsd">
+ 
+ <!-- 告诉spring容器去哪里加载db.peoperties配置文件  -->   
+<context:property-placeholder location="classpath:db.properties"/>
+    
+<!-- 让spring容器创建C3P0连接池  -->
+<bean name="DataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+ <property name="driverClass" value="${driverClass}"></property>
+ <property name="jdbcUrl" value="${jdbcUrl}"></property>
+ <property name="user" value="${user}"></property>
+ <property name="password" value="${password}"></property>
+</bean>
+ 
+ <!-- 将struts2交给spring容器管理  -->
+ <bean name="userAction" class="web.DoLogin" scope="prototype">
+  <property name="userServiceImpl" ref="userServiceImpl"></property>
+ </bean>
+ 
+ <bean name="textAction" class="web.GetTextInfo" scope="prototype">
+  <property name="textInfoServiceImpl" ref="textInfoServiceImpl"></property>
+ </bean>
+ 
+ <bean name="writeTextAction" class="web.DoWrite" scope="prototype">
+  <property name="textInfoServiceImpl" ref="textInfoServiceImpl"></property>
+ </bean>
+ 
+ <!-- 将service层交给spring容器管理  -->
+ <bean name="userServiceImpl" class="service.impl.UserServiceImpl">
+  <property name="userDao" ref="userDaoImpl"></property>
+ </bean>
+ 
+ <bean name="textInfoServiceImpl" class="service.impl.TextInfoServiceImpl">
+  <property name="textInfoDao" ref="textInfoImpl"></property>
+ </bean>
+ 
+  <!-- DAO层 HibernateDaoSupport 依赖 SessionFactory  -->
+  <bean name="userDaoImpl" class="dao.impl.UserImpl">
+   <property name="sessionFactory" ref="SessionFactory"></property>
+  </bean>
+  
+  <bean name="textInfoImpl" class="dao.impl.TextInfoImpl">
+   <property name="sessionFactory" ref="SessionFactory"></property>
+  </bean>
+
+<!-- 让Hibernate框架交给spring容器管理
+将配置写在spring框架配置中（重点掌握）
+-->
+<bean name="SessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+<!-- 将C3P0连接池给Hibernate使用  -->
+<property name="dataSource" ref="DataSource"></property>
+ <!-- 将配置写在spring框架配置中（重点掌握）  -->
+ <property name="hibernateProperties">
+  <props>
+   <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop>
+   
+   <!-- 3个可选参数 
+   		控制台显示SQL
+   		格式化SQL
+   		自动更新表结构
+   -->
+   <prop key="hibernate.show_sql">true</prop>
+   <prop key="hibernate.format_sql">true</prop>
+   <prop key="hibernate.hbm2ddl.auto">update</prop>
+  </props>
+ </property>
+
+<!-- 告诉spring整合之后去哪里加载orm映射文件  -->
+<property name="mappingDirectoryLocations" value="classpath:entity"></property>
+</bean>
+
+<!-- 让spring容器去管理事务  -->
+<bean name="TransactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+ <!-- 事务管理者对象需要依赖 SessionFactory  -->
+ <property name="sessionFactory" ref="SessionFactory"></property>
+</bean>
+
+<!-- 配置事务通知  -->
+<tx:advice id="txadvice" transaction-manager="TransactionManager">
+ <tx:attributes>
+  <tx:method name="get*" isolation="READ_COMMITTED" propagation="SUPPORTS" read-only="true"/>
+  <tx:method name="add*" isolation="READ_COMMITTED" propagation="SUPPORTS" read-only="false"/>
+  <tx:method name="write*" isolation="READ_COMMITTED" propagation="SUPPORTS" read-only="false"/>
+  <tx:method name="*Del" isolation="READ_COMMITTED" propagation="SUPPORTS" read-only="false"/>
+ </tx:attributes>
+</tx:advice>
+
+<!-- 配置 aop切入 
+	业务层实现了接口 proxy-target-class="true"
+  -->
+<aop:config proxy-target-class="true">
+ <aop:pointcut expression="execution(* service.impl.*Service*.*(..))" id="ac"/>
+ <aop:advisor advice-ref="txadvice" pointcut-ref="ac"/>
+</aop:config>
+ 
+</beans>

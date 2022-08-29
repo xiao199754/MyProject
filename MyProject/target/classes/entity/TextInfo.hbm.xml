@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="entity">
+
+	<class name="TextInfo" table="t_text">
+		<id name="id" column="id">
+			<generator class="native"></generator>
+		</id>
+		
+		<property name="title" column="title" not-null="true"></property>
+		
+		<property name="time" column="time" type="timestamp" not-null="true"></property>
+		
+		<property name="text" column="text" length="1000" not-null="true"></property>
+	</class>
+
+</hibernate-mapping>
